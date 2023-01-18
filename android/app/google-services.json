@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "8531781178",
+    "project_id": "mynotes-dana-flutter",
+    "storage_bucket": "mynotes-dana-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8531781178:android:3b83e71a5fc58b34d4b703",
+        "android_client_info": {
+          "package_name": "com.dana.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8531781178-1jt59e94133p1djjpdhgpd4t3dl37lg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9R_5ZqWGq069odLJ_LThYrUThdM7ysJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8531781178-1jt59e94133p1djjpdhgpd4t3dl37lg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
