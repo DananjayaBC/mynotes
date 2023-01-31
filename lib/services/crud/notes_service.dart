@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:mynotes/services/crud/crud_exceptions.dart';
@@ -54,10 +53,14 @@ class NotesService {
     await getNote(id: note.id);
 
     //update db
-    final updatesCount = await db.update(noteTable, {
-      textColumn: text,
-      isSnyncedCloudColumn: 0,
-    });
+    final updatesCount = await db.update(
+        noteTable,
+        {
+          textColumn: text,
+          isSnyncedCloudColumn: 0,
+        },
+        where: 'id=?',
+        whereArgs: [note.id]);
 
     if (updatesCount == 0) {
       throw CouldNotUpdateNote();
