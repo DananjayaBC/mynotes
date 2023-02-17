@@ -134,4 +134,10 @@ class MockAuthProvider implements AuthProvider {
         AuthUser(isEmailVerified: true, email: 'foo@bar.com', id: 'my_id,');
     _user = newUSer;
   }
+
+  @override
+  Future<void> sendPasswordReset({required String toEmail}) {
+    // TODO: implement sendPasswordReset
+    throw UnimplementedError();
+  }
 }
